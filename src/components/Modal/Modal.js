@@ -1,9 +1,27 @@
 import React, { Component } from 'react';
+// import { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import PropTypes from 'prop-types';
 import style from './Modal.module.css';
 
 const modalRoot = document.querySelector('#modal-root');
+
+// export default function Modal({onCloseModal, children, modalImage, modalAlt}) {
+//   return createPortal(
+//       <div className={style.Overlay} onClick={onCloseModal}>
+//         <div className={style.Modal}>
+//           {children}
+//           <img src={modalImage} alt={modalAlt} />
+//         </div>
+//       </div>,
+//       modalRoot,
+//     );
+// }
+
+// Modal.propTypes = {
+//   onKeyDown: PropTypes.func,
+//   onCloseModal: PropTypes.func,
+// };
 
 export default class Modal extends Component {
   static propTypes = {
