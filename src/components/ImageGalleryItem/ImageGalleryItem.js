@@ -1,3 +1,4 @@
+// import React, { Component } from 'react';
 import { useState } from 'react';
 import Modal from '../Modal/Modal';
 import PropTypes from 'prop-types';

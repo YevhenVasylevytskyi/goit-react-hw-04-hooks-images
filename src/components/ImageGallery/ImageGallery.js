@@ -1,3 +1,4 @@
+// import React, { Component } from 'react';
 import { useState, useEffect } from 'react';
 import ImageGalleryItem from '../ImageGalleryItem/ImageGalleryItem';
 import Button from '../Button/Button';
